@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: thatsme4now-btc-tracking
+category: finance
+name: BTC Tracking
+version: "1.1.0"
+tagline: Self-hosted Bitcoin portfolio tracker
+description: >-
+  BtcTracking is a fully offline-capable, self-hosted Bitcoin/crypto
+  portfolio tracker. Track multiple wallets and exchanges, import CSV
+  transaction history, and monitor performance without any cloud
+  dependency.
+releaseNotes: ""
+developer: thatsme4now
+website: https://github.com/thatsme4now/btc-tracking
+dependencies: []
+repo: https://github.com/thatsme4now/btc-tracking
+support: https://github.com/thatsme4now/btc-tracking/issues
+port: 8080
+gallery: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter: thatsme4now
+submission: ""
