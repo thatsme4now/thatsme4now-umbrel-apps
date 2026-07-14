@@ -10,6 +10,7 @@ description: >-
   transaction history, and monitor performance without any cloud
   dependency.
 releaseNotes: ""
+icon: https://raw.githubusercontent.com/thatsme4now/thatsme4now-umbrel-apps/master/thatsme4now-btc-tracking/icon.svg
 developer: thatsme4now
 website: https://github.com/thatsme4now/btc-tracking
 dependencies: []
