@@ -1,10 +1,3 @@
-# ---- Build stage ----
-FROM eclipse-temurin:21-jdk AS builder
-WORKDIR /build
-COPY . .
-RUN ./gradlew bootJar --no-daemon
-
-# ---- Runtime stage ----
 FROM eclipse-temurin:21-jre
 RUN useradd -u 1000 -m appuser
 WORKDIR /app/data
