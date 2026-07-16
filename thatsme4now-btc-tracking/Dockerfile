@@ -2,7 +2,7 @@ FROM eclipse-temurin:21-jre
 RUN useradd -m appuser
 WORKDIR /app/data
 ADD https://github.com/thatsme4now/btc-tracking/releases/download/1.1.0/btc-tracking-1-1-0.jar /app/btc-tracking.jar
-RUN chown -R appuser:appuser /app
-USER appuser
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 EXPOSE 8080
-ENTRYPOINT ["java", "-Xmx256m", "-Dfile.encoding=UTF-8", "-jar", "/app/btc-tracking.jar", "--depot.db=h2file"]
+ENTRYPOINT ["/entrypoint.sh"]
