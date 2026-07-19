@@ -2,10 +2,10 @@ manifestVersion: 1
 id: thatsme4now-btc-tracking
 category: finance
 name: BTC Tracking
-version: "1.1.0"
+version: "1.2.0"
 tagline: Self-hosted Bitcoin portfolio tracker
 description: >-
-  BtcTracking is a fully offline-capable, self-hosted Bitcoin/crypto
+  BtcTracking is a fully offline-capable, self-hosted Bitcoin
   portfolio tracker. Track multiple wallets and exchanges, import CSV
   transaction history, and monitor performance without any cloud
   dependency.
