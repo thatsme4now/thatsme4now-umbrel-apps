@@ -9,7 +9,7 @@ description: >-
   portfolio tracker. Track multiple wallets and exchanges, import CSV
   transaction history, and monitor performance without any cloud
   dependency.
-releaseNotes: ""
+releaseNotes: "More details can be found on https://thatsme4now.github.io/btc-tracking/index.html"
 icon: https://raw.githubusercontent.com/thatsme4now/thatsme4now-umbrel-apps/master/thatsme4now-btc-tracking/icon.svg
 developer: thatsme4now
 website: https://thatsme4now.github.io/btc-tracking/
@@ -23,5 +23,3 @@ defaultUsername: ""
 defaultPassword: ""
 submitter: thatsme4now
 submission: ""
-releaseNotes: >-
-  More details can be found on https://thatsme4now.github.io/btc-tracking/index.html
