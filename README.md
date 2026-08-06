@@ -1,10 +1,21 @@
-## Umbrel Community App Store Template
+# thatsme4now Umbrel Apps
 
-This repository is a template to create an Umbrel Community App Store. These additional app stores allow developers to distribute applications without submitting to the [Official Umbrel App Store](https://github.com/getumbrel/umbrel-apps).
+Umbrel Community App Store for apps by [thatsme4now](https://github.com/thatsme4now).
 
-## How to use:
+## Apps
 
-add this GitHub url the umbrelOS user interface as shown in the following demo: https://github.com/thatsme4now/thatsme4now-umbrel-apps
+- **[BTC Tracking](thatsme4now-btc-tracking)** — self-hosted, fully offline-capable Bitcoin portfolio tracker. Source: [thatsme4now/btc-tracking](https://github.com/thatsme4now/btc-tracking).
 
+## Installation
 
-https://user-images.githubusercontent.com/10330103/197889452-e5cd7e96-3233-4a09-b475-94b754adc7a3.mp4
+Add this repository's URL in the umbrelOS app store settings:
+
+```
+https://github.com/thatsme4now/thatsme4now-umbrel-apps
+```
+
+See [Adding a community app store](https://umbrel.com/support/apps/how-to-add-a-community-app-store) for details.
+
+## License
+
+Packaging files (Dockerfile, umbrel-app.yml, docker-compose.yml) in this repository are licensed under the [MIT License](LICENSE). See the individual app repositories for the license of the applications themselves.
